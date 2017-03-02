@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{26088F33-2BC3-4E1F-8734-4D7F5BB4AB67}</ProjectGuid>
+    <RootNamespace>TestProject</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;"..\..\cinder_0.8.6_vs2015\include";"..\..\cinder_0.8.6_vs2015\boost"</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;_WIN32_WINNT=0x0502;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\cinder_0.8.6_vs2015\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset)_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\cinder_0.8.6_vs2015\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;LIBCPMT</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include;"..\..\cinder_0.8.6_vs2015\include";"..\..\cinder_0.8.6_vs2015\boost"</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_WIN32_WINNT=0x0502;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\cinder_0.8.6_vs2015\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\cinder_0.8.6_vs2015\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h" />
+    <ClInclude Include="..\src\AssetManager\MaterialManager\MaterialManager.h" />
+    <ClInclude Include="..\src\AssetManager\SoundManager\SoundManager.h" />
+    <ClInclude Include="..\src\AssetManager\TextureManager\TextureManager.h" />
+    <ClInclude Include="..\src\AssetManager\TriMeshManager\TriMeshManager.h" />
+    <ClInclude Include="..\src\GameObject\GameObject.h" />
+    <ClInclude Include="..\src\MyGameObject\Base\Base.h" />
+    <ClInclude Include="..\src\MyGameObject\Buttons\Buttons.h" />
+    <ClInclude Include="..\src\MyGameObject\CameraWork\CameraWork.h" />
+    <ClInclude Include="..\src\MyGameObject\CheckPoint\CheckPoint.h" />
+    <ClInclude Include="..\src\MyGameObject\ClearUi\ClearUi.h" />
+    <ClInclude Include="..\src\MyGameObject\DoroneMemory\DoroneMemory.h" />
+    <ClInclude Include="..\src\MyGameObject\Dorone\Dorone.h" />
+    <ClInclude Include="..\src\MyGameObject\DroneOneFrame\DroneOneFrame.h" />
+    <ClInclude Include="..\src\MyGameObject\GameMainTask\GameMainTaskh.h" />
+    <ClInclude Include="..\src\MyGameObject\Map\Map.h" />
+    <ClInclude Include="..\src\MyGameObject\MaterialEdit\MaterialEdit.h" />
+    <ClInclude Include="..\src\MyGameObject\MyArea\MyArea.h" />
+    <ClInclude Include="..\src\MyGameObject\MyEditCamera\MyEditCamera.h" />
+    <ClInclude Include="..\src\MyGameObject\MyLight\MyLight.h" />
+    <ClInclude Include="..\src\MyGameObject\Skydome\Skydome.h" />
+    <ClInclude Include="..\src\MyGameObject\StageEdit\StageEdit.h" />
+    <ClInclude Include="..\src\MyGameObject\Timer\Timer.h" />
+    <ClInclude Include="..\src\Scene\GameMain\GameMain.h" />
+    <ClInclude Include="..\src\Scene\MaterialCreate\MaterialCreate.h" />
+    <ClInclude Include="..\src\Scene\SceneBase\SceneBase.h" />
+    <ClInclude Include="..\src\Scene\StageCreate\StageCreate.h" />
+    <ClInclude Include="..\src\Scene\StageSelect\StageSelect.h" />
+    <ClInclude Include="..\src\System\CinderFwd.h" />
+    <ClInclude Include="..\src\System\Coroutine\Coroutine.h" />
+    <ClInclude Include="..\src\System\Easing\Easing.h" />
+    <ClInclude Include="..\src\System\Input\Input.h" />
+    <ClInclude Include="..\src\System\Input\Key\Key.h" />
+    <ClInclude Include="..\src\System\Input\Mouse\Mouse.h" />
+    <ClInclude Include="..\src\System\Interface\Interface.h" />
+    <ClInclude Include="..\src\System\Utility\Utility.h" />
+    <ClInclude Include="..\src\Transform\Transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AssetManager\MaterialManager\MaterialManager.cpp" />
+    <ClCompile Include="..\src\AssetManager\SoundManager\SoundManager.cpp" />
+    <ClCompile Include="..\src\AssetManager\TextureManager\TextureManager.cpp" />
+    <ClCompile Include="..\src\AssetManager\TriMeshManager\TriMeshManager.cpp" />
+    <ClCompile Include="..\src\GameObject\GameObject.cpp" />
+    <ClCompile Include="..\src\MainProjectApp.cpp" />
+    <ClCompile Include="..\src\MyGameObject\Base\Base.cpp" />
+    <ClCompile Include="..\src\MyGameObject\Buttons\Buttons.cpp" />
+    <ClCompile Include="..\src\MyGameObject\CameraWork\CameraWork.cpp" />
+    <ClCompile Include="..\src\MyGameObject\CheckPoint\CheckPoint.cpp" />
+    <ClCompile Include="..\src\MyGameObject\ClearUi\ClearUi.cpp" />
+    <ClCompile Include="..\src\MyGameObject\DoroneMemory\DoroneMemory.cpp" />
+    <ClCompile Include="..\src\MyGameObject\Dorone\Dorone.cpp" />
+    <ClCompile Include="..\src\MyGameObject\DroneOneFrame\DroneOneFrame.cpp" />
+    <ClCompile Include="..\src\MyGameObject\GameMainTask\GameMainTaskh.cpp" />
+    <ClCompile Include="..\src\MyGameObject\Map\Map.cpp" />
+    <ClCompile Include="..\src\MyGameObject\MaterialEdit\MaterialEdit.cpp" />
+    <ClCompile Include="..\src\MyGameObject\MyArea\MyArea.cpp" />
+    <ClCompile Include="..\src\MyGameObject\MyEditCamera\MyEditCamera.cpp" />
+    <ClCompile Include="..\src\MyGameObject\MyLight\MyLight.cpp" />
+    <ClCompile Include="..\src\MyGameObject\Skydome\Skydome.cpp" />
+    <ClCompile Include="..\src\MyGameObject\StageEdit\StageEdit.cpp" />
+    <ClCompile Include="..\src\MyGameObject\Timer\Timer.cpp" />
+    <ClCompile Include="..\src\Scene\GameMain\GameMain.cpp" />
+    <ClCompile Include="..\src\Scene\MaterialCreate\MaterialCreate.cpp" />
+    <ClCompile Include="..\src\Scene\SceneBase\SceneBase.cpp" />
+    <ClCompile Include="..\src\Scene\StageCreate\StageCreate.cpp" />
+    <ClCompile Include="..\src\Scene\StageSelect\StageSelect.cpp" />
+    <ClCompile Include="..\src\System\Coroutine\Coroutine.cpp" />
+    <ClCompile Include="..\src\System\Easing\Easing.cpp" />
+    <ClCompile Include="..\src\System\Input\Input.cpp" />
+    <ClCompile Include="..\src\System\Input\Key\Key.cpp" />
+    <ClCompile Include="..\src\System\Input\Mouse\Mouse.cpp" />
+    <ClCompile Include="..\src\System\Interface\Interface.cpp" />
+    <ClCompile Include="..\src\System\Utility\Utility.cpp" />
+    <ClCompile Include="..\src\Transform\Transform.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

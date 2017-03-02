@@ -1,0 +1,71 @@
+﻿cl : コマンド ライン warning D9030: '/Gm' はマルチプロセシングと互換性がありません。/MP スイッチを無視します
+  GameMain.cpp
+  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
+  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
+  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory(349): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory(336): note: 'std::_Uninitialized_copy0' の宣言を確認してください
+  c:\users\bantan\desktop\cinderまとめ\cinder3\cinder_0.8.6_vs2015\boost\boost\signals2\detail\auto_buffer.hpp(191): note: コンパイル対象の関数 テンプレート インスタンス化 '_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)' のリファレンスを確認してください
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ]
+  c:\users\bantan\desktop\cinderまとめ\cinder3\cinder_0.8.6_vs2015\boost\boost\signals2\detail\auto_buffer.hpp(178): note: コンパイル対象の関数 テンプレート インスタンス化 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' のリファレンスを確認してください
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  c:\users\bantan\desktop\cinderまとめ\cinder3\cinder_0.8.6_vs2015\boost\boost\signals2\detail\auto_buffer.hpp(178): note: コンパイル対象の関数 テンプレート インスタンス化 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' のリファレンスを確認してください
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  c:\users\bantan\desktop\cinderまとめ\cinder3\cinder_0.8.6_vs2015\boost\boost\signals2\detail\auto_buffer.hpp(204): note: コンパイル対象の関数 テンプレート インスタンス化 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' のリファレンスを確認してください
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  c:\users\bantan\desktop\cinderまとめ\cinder3\cinder_0.8.6_vs2015\boost\boost\signals2\detail\auto_buffer.hpp(203): note: コンパイル対象の関数 テンプレート インスタンス化 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' のリファレンスを確認してください
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  c:\users\bantan\desktop\cinderまとめ\cinder3\cinder_0.8.6_vs2015\boost\boost\signals2\detail\auto_buffer.hpp(296): note: コンパイル対象の関数 テンプレート インスタンス化 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' のリファレンスを確認してください
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  c:\users\bantan\desktop\cinderまとめ\cinder3\cinder_0.8.6_vs2015\boost\boost\signals2\detail\auto_buffer.hpp(296): note: コンパイル対象の関数 テンプレート インスタンス化 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' のリファレンスを確認してください
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  c:\users\bantan\desktop\cinderまとめ\cinder3\cinder_0.8.6_vs2015\boost\boost\signals2\detail\auto_buffer.hpp(294): note: クラス テンプレート のメンバー関数 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned int,const boost::true_type &)' のコンパイル中
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  c:\users\bantan\desktop\cinderまとめ\cinder3\cinder_0.8.6_vs2015\boost\boost\signals2\detail\auto_buffer.hpp(302): note: コンパイル対象の関数 テンプレート インスタンス化 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned int,const boost::true_type &)' のリファレンスを確認してください
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  c:\users\bantan\desktop\cinderまとめ\cinder3\cinder_0.8.6_vs2015\boost\boost\signals2\connection.hpp(53): note: コンパイル対象のクラス テンプレート インスタンス化 'boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>' のリファレンスを確認してください
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  c:\users\bantan\desktop\cinderまとめ\cinder3\cinder_0.8.6_vs2015\boost\boost\signals2\connection.hpp(55): note: コンパイル対象のクラス テンプレート インスタンス化 'boost::signals2::detail::garbage_collecting_lock<Mutex>' のリファレンスを確認してください
+  コードを生成中...
+  スキップ中... (関連する変更は検出されませんでした)
+  Timer.cpp
+  GameMainTaskh.cpp
+  MainProjectApp.vcxproj -> C:\Users\bantan\Desktop\cinderまとめ\cinder3\就活作品2\vc2013\Debug\MainProjectApp.exe

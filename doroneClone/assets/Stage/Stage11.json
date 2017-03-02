@@ -1,0 +1,50 @@
+{
+   "Points" : [
+      [ -38.048954010009766, 3.5000019073486328, 0.44098663330078125 ],
+      [ 35.435272216796875, 3.5, -1.7040634155273438 ],
+      [ 37.827682495117188, 17.739997863769531, 39.066265106201172 ],
+      [ 34.975090026855469, 17.739994049072266, -39.422187805175781 ]
+   ],
+   "StageInfo" : {
+      "Center" : [ 0, 0, 0 ],
+      "StageSize" : [ 99, 99, 99 ]
+   },
+   "obs_info" : [
+      {
+         "isGround" : true,
+         "material" : "default",
+         "mesh" : "default",
+         "position" : [ 0, 0, 0 ],
+         "rotate" : [ 0, 0, 0 ],
+         "scale" : [ 100, 1, 100 ],
+         "texture" : "default"
+      },
+      {
+         "isGround" : true,
+         "material" : "default",
+         "mesh" : "default",
+         "position" : [ 1.5, 7.1800003051757813, 38.460002899169922 ],
+         "rotate" : [ 0, 0, 17.110000610351563 ],
+         "scale" : [ 50, 1, 23.040000915527344 ],
+         "texture" : "default"
+      },
+      {
+         "isGround" : true,
+         "material" : "default",
+         "mesh" : "default",
+         "position" : [ 35.459999084472656, 14.239999771118164, 0 ],
+         "rotate" : [ 0, 0, 0 ],
+         "scale" : [ 23.329999923706055, 1, 110 ],
+         "texture" : "default"
+      },
+      {
+         "isGround" : false,
+         "material" : "default",
+         "mesh" : "CasaSimples",
+         "position" : [ 0, 2.0699999332427979, 0 ],
+         "rotate" : [ 0, 0, 0 ],
+         "scale" : [ 6.3000001907348633, 4.2799997329711914, 7.2299995422363281 ],
+         "texture" : "CasaSimples"
+      }
+   ]
+}

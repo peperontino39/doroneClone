@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\AssetManager">
+      <UniqueIdentifier>{768c25fc-1174-44a8-bad5-7f9e191da10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{30da65ca-c84a-4cf6-a7dd-766f847f5ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject">
+      <UniqueIdentifier>{045f651d-3255-40de-a3d2-794bcba24a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{c68e8291-12b5-4572-8503-bc50ea36c52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{db824ac6-7abf-4764-85ea-6605d617355a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Transform">
+      <UniqueIdentifier>{ef64f6e8-e95b-4797-ad38-93350f4fa37a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AssetManager\MaterialManager">
+      <UniqueIdentifier>{65761ec8-7fb5-45e3-820b-985ebe8425b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AssetManager\SoundManager">
+      <UniqueIdentifier>{07b80e66-eec9-4a10-843b-dca1794207d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AssetManager\TextureManager">
+      <UniqueIdentifier>{3960d726-f5d5-4ebe-af2b-ae613a881f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AssetManager\TriMeshManager">
+      <UniqueIdentifier>{abd7db97-f981-4c02-b7e4-e448dc7dedd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\Buttons">
+      <UniqueIdentifier>{2dddf55c-1366-47b1-8a8f-e82cbf8fa98a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\CameraWork">
+      <UniqueIdentifier>{614005d1-2e10-4b18-ad82-2baba66c6899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\CheckPoint">
+      <UniqueIdentifier>{a2b70fd7-c730-4a6a-8d42-1362cfab6c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\Dorone">
+      <UniqueIdentifier>{57af7be3-8383-445c-9abc-f810c13bcf89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\DoroneMemory">
+      <UniqueIdentifier>{2f7e76c8-44b1-4e55-95c1-928e143418f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\DroneOneFrame">
+      <UniqueIdentifier>{87f12164-7334-4d3e-a85f-23fa1e15d422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\GameMainTask">
+      <UniqueIdentifier>{93e92e2c-f265-4754-8dc5-b6088c0707c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\Map">
+      <UniqueIdentifier>{ccc7a791-cc48-4978-9195-1a07c5a523ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\MaterialEdit">
+      <UniqueIdentifier>{c85e4c9c-3b20-47c1-b2bb-a5da0a6e98cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\MyArea">
+      <UniqueIdentifier>{48f1e596-f9d3-4867-8a12-16fdb5d6fce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\MyEditCamera">
+      <UniqueIdentifier>{629c299b-0526-46a0-8e55-1b0308139268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\MyLight">
+      <UniqueIdentifier>{6890efef-19f1-43c7-8481-a390881931e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\StageEdit">
+      <UniqueIdentifier>{ccfeac7f-c6da-4eed-bb21-03c4503c4a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\NewFilter6">
+      <UniqueIdentifier>{d16a0fcf-b4ee-4baa-8b03-c7aca6aed2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\GameMain">
+      <UniqueIdentifier>{ef038daf-2cf2-4503-b951-43b4d2ed8c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\MaterialCreate">
+      <UniqueIdentifier>{27ca98ec-a20a-45ff-a921-3c186ded1576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\SceneBase">
+      <UniqueIdentifier>{42b5d2ea-e8fc-4b56-8f9e-03a7aefbc499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\StageCreate">
+      <UniqueIdentifier>{92195af4-2cba-47ed-9c9b-4c499a2af1bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\StageSelect">
+      <UniqueIdentifier>{8bda121b-c33e-4732-b8c0-b4b6ad42a7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Coroutine">
+      <UniqueIdentifier>{1a135676-7813-4092-946f-2e5f32f59f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Easing">
+      <UniqueIdentifier>{47c7562f-163d-486b-afff-7146898c4219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Input">
+      <UniqueIdentifier>{a74edf2b-7441-4171-bb58-92d96f22f67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Interface">
+      <UniqueIdentifier>{06f307b9-a02e-4341-b75f-927987a8ce9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Utility">
+      <UniqueIdentifier>{4797dd19-0862-4cd3-a642-e29cf766a0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Input\Key">
+      <UniqueIdentifier>{035afb22-c9d1-4225-a24f-d50bcb7cde5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Input\Mouse">
+      <UniqueIdentifier>{3bb8ed14-cc9e-4680-9cde-452bffa15c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\Skydome">
+      <UniqueIdentifier>{0c84c4d3-f6f7-4735-83d8-5cd4174000f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\Timer">
+      <UniqueIdentifier>{1c924147-bf80-4231-b418-db3f0a3c1222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\ClearUi">
+      <UniqueIdentifier>{204d4c30-b805-4a1b-8a29-f73f9f737dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyGameObject\Base">
+      <UniqueIdentifier>{e5c20c36-03e1-4eb7-8302-35a0d14ca679}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\CameraWork\CameraWork.h">
+      <Filter>Source Files\MyGameObject\CameraWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\CheckPoint\CheckPoint.h">
+      <Filter>Source Files\MyGameObject\CheckPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\CinderFwd.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\Dorone\Dorone.h">
+      <Filter>Source Files\MyGameObject\Dorone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\DoroneMemory\DoroneMemory.h">
+      <Filter>Source Files\MyGameObject\DoroneMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\DroneOneFrame\DroneOneFrame.h">
+      <Filter>Source Files\MyGameObject\DroneOneFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\GameMainTask\GameMainTaskh.h">
+      <Filter>Source Files\MyGameObject\GameMainTask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameObject\GameObject.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AssetManager\MaterialManager\MaterialManager.h">
+      <Filter>Source Files\AssetManager\MaterialManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\Map\Map.h">
+      <Filter>Source Files\MyGameObject\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\MaterialEdit\MaterialEdit.h">
+      <Filter>Source Files\MyGameObject\MaterialEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\MyArea\MyArea.h">
+      <Filter>Source Files\MyGameObject\MyArea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\MyEditCamera\MyEditCamera.h">
+      <Filter>Source Files\MyGameObject\MyEditCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\MyLight\MyLight.h">
+      <Filter>Source Files\MyGameObject\MyLight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\StageEdit\StageEdit.h">
+      <Filter>Source Files\MyGameObject\StageEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Scene\SceneBase\SceneBase.h">
+      <Filter>Source Files\Scene\SceneBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AssetManager\SoundManager\SoundManager.h">
+      <Filter>Source Files\AssetManager\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Scene\StageCreate\StageCreate.h">
+      <Filter>Source Files\Scene\StageCreate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Scene\StageSelect\StageSelect.h">
+      <Filter>Source Files\Scene\StageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AssetManager\TextureManager\TextureManager.h">
+      <Filter>Source Files\AssetManager\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AssetManager\TriMeshManager\TriMeshManager.h">
+      <Filter>Source Files\AssetManager\TriMeshManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Transform\Transform.h">
+      <Filter>Source Files\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Coroutine\Coroutine.h">
+      <Filter>Source Files\System\Coroutine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Easing\Easing.h">
+      <Filter>Source Files\System\Easing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Input\Input.h">
+      <Filter>Source Files\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Interface\Interface.h">
+      <Filter>Source Files\System\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Input\Key\Key.h">
+      <Filter>Source Files\System\Input\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Input\Mouse\Mouse.h">
+      <Filter>Source Files\System\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Utility\Utility.h">
+      <Filter>Source Files\System\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\Buttons\Buttons.h">
+      <Filter>Source Files\MyGameObject\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Scene\GameMain\GameMain.h">
+      <Filter>Source Files\Scene\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Scene\MaterialCreate\MaterialCreate.h">
+      <Filter>Source Files\Scene\MaterialCreate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\Skydome\Skydome.h">
+      <Filter>Source Files\MyGameObject\Skydome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\Timer\Timer.h">
+      <Filter>Source Files\MyGameObject\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\ClearUi\ClearUi.h">
+      <Filter>Source Files\MyGameObject\ClearUi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyGameObject\Base\Base.h">
+      <Filter>Source Files\MyGameObject\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\MainProjectApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\CameraWork\CameraWork.cpp">
+      <Filter>Source Files\MyGameObject\CameraWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\CheckPoint\CheckPoint.cpp">
+      <Filter>Source Files\MyGameObject\CheckPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\Dorone\Dorone.cpp">
+      <Filter>Source Files\MyGameObject\Dorone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\DoroneMemory\DoroneMemory.cpp">
+      <Filter>Source Files\MyGameObject\DoroneMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\DroneOneFrame\DroneOneFrame.cpp">
+      <Filter>Source Files\MyGameObject\DroneOneFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\GameMainTask\GameMainTaskh.cpp">
+      <Filter>Source Files\MyGameObject\GameMainTask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameObject\GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AssetManager\MaterialManager\MaterialManager.cpp">
+      <Filter>Source Files\AssetManager\MaterialManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\Map\Map.cpp">
+      <Filter>Source Files\MyGameObject\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\MaterialEdit\MaterialEdit.cpp">
+      <Filter>Source Files\MyGameObject\MaterialEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\MyArea\MyArea.cpp">
+      <Filter>Source Files\MyGameObject\MyArea</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\MyEditCamera\MyEditCamera.cpp">
+      <Filter>Source Files\MyGameObject\MyEditCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\MyLight\MyLight.cpp">
+      <Filter>Source Files\MyGameObject\MyLight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\StageEdit\StageEdit.cpp">
+      <Filter>Source Files\MyGameObject\StageEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Scene\SceneBase\SceneBase.cpp">
+      <Filter>Source Files\Scene\SceneBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AssetManager\SoundManager\SoundManager.cpp">
+      <Filter>Source Files\AssetManager\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Scene\StageCreate\StageCreate.cpp">
+      <Filter>Source Files\Scene\StageCreate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Scene\StageSelect\StageSelect.cpp">
+      <Filter>Source Files\Scene\StageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AssetManager\TextureManager\TextureManager.cpp">
+      <Filter>Source Files\AssetManager\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AssetManager\TriMeshManager\TriMeshManager.cpp">
+      <Filter>Source Files\AssetManager\TriMeshManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Transform\Transform.cpp">
+      <Filter>Source Files\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Coroutine\Coroutine.cpp">
+      <Filter>Source Files\System\Coroutine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Easing\Easing.cpp">
+      <Filter>Source Files\System\Easing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Input\Input.cpp">
+      <Filter>Source Files\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Interface\Interface.cpp">
+      <Filter>Source Files\System\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Input\Key\Key.cpp">
+      <Filter>Source Files\System\Input\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Input\Mouse\Mouse.cpp">
+      <Filter>Source Files\System\Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Utility\Utility.cpp">
+      <Filter>Source Files\System\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\Buttons\Buttons.cpp">
+      <Filter>Source Files\MyGameObject\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Scene\GameMain\GameMain.cpp">
+      <Filter>Source Files\Scene\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Scene\MaterialCreate\MaterialCreate.cpp">
+      <Filter>Source Files\Scene\MaterialCreate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\Skydome\Skydome.cpp">
+      <Filter>Source Files\MyGameObject\Skydome</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\Timer\Timer.cpp">
+      <Filter>Source Files\MyGameObject\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\ClearUi\ClearUi.cpp">
+      <Filter>Source Files\MyGameObject\ClearUi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyGameObject\Base\Base.cpp">
+      <Filter>Source Files\MyGameObject\Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
