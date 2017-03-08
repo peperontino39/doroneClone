@@ -38,10 +38,5 @@ private:
 	float radius;
 	bool is_all_clear;
 
-	TriMeshRef yajirusi;
-	ci::gl::TextureRef yajirusi_tex;
-	MaterialRef yaji_mate;
-
-	
 };
 

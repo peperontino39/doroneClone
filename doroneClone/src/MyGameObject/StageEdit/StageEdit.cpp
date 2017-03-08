@@ -32,7 +32,7 @@ StageEdit::StageEdit()
 
 	mInterface->addParam("stageCenter", &transform.position);
 	mInterface->addParam("stageScale", &transform.scale);
-	mInterface->addParam("stage_num", &stage_num).updateFn([&]() {load(); });
+	mInterface->addParam("stage_num", &stage_num);
 	mInterface->addButton("load", std::bind(&StageEdit::load, this));
 	mInterface->addButton("save", std::bind(&StageEdit::save, this));
 	mInterface->addButton("create", std::bind(&StageEdit::create, this));

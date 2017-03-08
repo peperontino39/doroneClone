@@ -14,7 +14,6 @@
 #include "../../MyGameObject/ClearUi/ClearUi.h"
 #include "../../MyGameObject/Timer/Timer.h"
 #include "../../Scene/StageSelect/StageSelect.h"
-#include "../../AssetManager/SoundManager/SoundManager.h"
 
 
 GameMain::GameMain(int _stage)
@@ -34,7 +33,7 @@ void GameMain::onCreate()
 	CheckPoint* check_point = Instantiate(new CheckPoint());
 	GameMainTask* gamemaintask = Instantiate(new GameMainTask());
 	ClearUi* clearUi = Instantiate(new ClearUi());
-	MyTimer* timer = Instantiate(new MyTimer());
+	Timer* timer = Instantiate(new Timer());
 
 	Instantiate(new Skydome());
 
@@ -69,8 +68,6 @@ void GameMain::onCreate()
 		}
 		if (*is_end) {
 			next = new StageSelect();
-			Sounds.get("se")->start();
-
 		}
 		return next;
 	};

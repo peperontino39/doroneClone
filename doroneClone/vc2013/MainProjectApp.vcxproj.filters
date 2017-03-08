@@ -82,9 +82,6 @@
     <Filter Include="Source Files\MyGameObject\StageEdit">
       <UniqueIdentifier>{ccfeac7f-c6da-4eed-bb21-03c4503c4a25}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Scene\NewFilter6">
-      <UniqueIdentifier>{d16a0fcf-b4ee-4baa-8b03-c7aca6aed2b9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Scene\GameMain">
       <UniqueIdentifier>{ef038daf-2cf2-4503-b951-43b4d2ed8c99}</UniqueIdentifier>
     </Filter>
@@ -132,6 +129,15 @@
     </Filter>
     <Filter Include="Source Files\MyGameObject\Base">
       <UniqueIdentifier>{e5c20c36-03e1-4eb7-8302-35a0d14ca679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneManager">
+      <UniqueIdentifier>{4521815c-bd4d-4f9c-b384-435dc9409c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Easing\EasingInfos">
+      <UniqueIdentifier>{406b4172-4849-49fe-a862-08d8297e67e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Easing\EasingInfo">
+      <UniqueIdentifier>{b3a9a2d0-57e6-44e4-abfc-856e08309b52}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -245,6 +251,15 @@
     </ClInclude>
     <ClInclude Include="..\src\MyGameObject\Base\Base.h">
       <Filter>Source Files\MyGameObject\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SceneManager\SceneManager.h">
+      <Filter>Source Files\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Easing\EasingInfo\EasingInfo.h">
+      <Filter>Source Files\System\Easing\EasingInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Easing\EasingInfos\EasingInfos.h">
+      <Filter>Source Files\System\Easing\EasingInfos</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -365,6 +380,9 @@
     </ClCompile>
     <ClCompile Include="..\src\MyGameObject\Base\Base.cpp">
       <Filter>Source Files\MyGameObject\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneManager\SceneManager.cpp">
+      <Filter>Source Files\SceneManager</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

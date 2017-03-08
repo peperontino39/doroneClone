@@ -7,7 +7,7 @@ using namespace ci::app;
 
 void Skydome::setup()
 {
-	texture = Textures.get("Â‹ó_R‚Â‚«");
+	texture = Textures.get("default");
 	transform.scale = ci::Vec3f::one() * 500;
 
 

@@ -169,7 +169,7 @@ bool Map::istrigr()
 
 
 
-//当たったらtrueを返すよ
+
 bool Map::isHitTriMeshToSphere()
 {
 
@@ -186,8 +186,6 @@ bool Map::isHitTriMeshToSphere()
 		if (!AABBtoVec3f(min, max, onDorones->transform.position)) {
 			continue;
 		}
-
-		//ここが通ればオゴ
 
 		std::vector<Vec3f> vertices = mesh->getVertices();
 		for (auto& ver : vertices)
@@ -208,13 +206,13 @@ bool Map::isHitTriMeshToSphere()
 			Vec3f v1 = point[0] - point[1];
 			Vec3f v2 = point[0] - point[2];
 
-			//距離である
+			//距離
 			Vec3f cross = v1.cross(v2);
 			cross.normalize();
 			Vec3f vecT = onDorones->transform.position - point[0];
 			float ln = cross.dot(vecT);
 
-			//距離が当たってなかったらです　 >
+			//距離が当たってなかったら >
 			if (std::abs(ln) > r) {
 				continue;
 			}
@@ -228,7 +226,7 @@ bool Map::isHitTriMeshToSphere()
 			Vec3f v1n = v1 / len1;
 			Vec3f v2n = v2 / len2;
 
-			//各辺に最も近い点だ
+			//各辺に最も近い点
 			
 			Vec3f h0 = point[2] + v0n *
 				std::min(std::max(v0n.dot((onDorones->transform.position - point[2])), 0.f), len0);
@@ -267,7 +265,7 @@ bool Map::isHitTriMeshToSphere()
 			}
 		}
 
-		//頂点必要なかったわ＞＜
+		//頂点
 		/*for (auto& ver : vertices)
 		{
 			if (ver.distanceSquared(onDorones->transform.position) < r2) {

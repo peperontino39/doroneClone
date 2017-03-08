@@ -3,7 +3,6 @@
 #include  "../../Scene/GameMain/GameMain.h"
 #include "../../System/Input/Input.h"
 #include "../../Scene/StageCreate/StageCreate.h"
-#include "../../AssetManager/SoundManager/SoundManager.h"
 
 void StageSelect::onCreate()
 {
@@ -15,7 +14,7 @@ void StageSelect::onCreate()
 	nextScene = [&] {
 		SceneBase*  next = nullptr;
 		if (isnext()) {
-			Sounds.get("se")->start();
+			
 			next = new GameMain(stage_num());
 		}
 		if (c_Input.getKeyPush(ci::app::KeyEvent::KEY_2)) {

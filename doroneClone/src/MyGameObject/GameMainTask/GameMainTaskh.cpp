@@ -9,7 +9,6 @@
 #include "../../MyGameObject/ClearUi/ClearUi.h"
 #include "../../MyGameObject/Timer/Timer.h"
 
-#include "../../AssetManager/SoundManager/SoundManager.h"
 
 
 using namespace ci;
@@ -39,19 +38,15 @@ void GameMainTask::update()
 		if (dorone_memory->ishit(dorone->transform.position, dorone->getRadius() + dorone->getRadius()))
 		{
 			setTaskID(TaskID::REWIND);
-			Sounds.get("dame")->start();
 
 		}
 		if (map->isHitTriMeshToSphere()) {
 			setTaskID(TaskID::REWIND);
-			Sounds.get("dame")->start();
 
 		}
 		if (check_point->isGoal()) {
 			check_point->goalFn();
 			dorone->onGoal();
-			Sounds.get("se")->start();
-
 			if (check_point->isAllClear()) {
 				setTaskID(TaskID::REPLAY);
 				dorone->setIsDraw(false);
@@ -139,9 +134,8 @@ void GameMainTask::setTaskID(TaskID _id)
 		camera->setDirectionE(ci::Vec3f::yAxis() * Quatf(45, 0, 0), _time);
 		camera->setLengthE(100, _time);
 
-		dorone->setIsMove(false);
+		//dorone->setIsMove(true);
 
-		dorone->hitFn();
 		break;
 	case REPLAY:
 		camera->setCenterE(ci::Vec3f::zero(), _time);

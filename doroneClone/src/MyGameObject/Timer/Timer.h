@@ -3,7 +3,7 @@
 #include "../../GameObject/GameObject.h"
 #include "cinder/Font.h"
 
-class MyTimer : public GameObject
+class Timer : public GameObject
 {
 public:
 

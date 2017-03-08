@@ -26,15 +26,10 @@ void DoroneMemory::draw()
 	{
 		if (dro.ismove) {
 			ci::gl::pushModelView();
-			gl::translate(Vec3f::yAxis() * -3);
 			ci::Matrix44f _mat;
 			_mat = ci::Matrix44f::createTranslation(dro.transfomes[count].pos);
 			_mat = _mat * dro.transfomes[count].rot;
 			ci::gl::multModelView(_mat);
-
-			float size = 0.5f;
-			gl::scale(size, size, size);
-
 			dro.mat.apply();
 
 			ci::gl::draw(*drone);
@@ -69,15 +64,10 @@ void DoroneMemory::draw()
 		else
 		{
 			ci::gl::pushModelView();
-			gl::translate(Vec3f::yAxis() * -3);
 			ci::Matrix44f _mat;
 			_mat = ci::Matrix44f::createTranslation(dro.transfomes.back().pos);
 			_mat = _mat * dro.transfomes.back().rot;
 			ci::gl::multModelView(_mat);
-
-			float size = 0.5f;
-			gl::scale(size, size, size);
-
 			dro.mat.apply();
 
 			ci::gl::draw(*drone);

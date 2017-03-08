@@ -4,13 +4,13 @@
 using namespace ci;
 using namespace ci::app;
 
-void MyTimer::setup()
+void Timer::setup()
 {
 	font = Font("Hiragino Maru Gothic ProN W4", 60.0f);
 	is_countdown = false;
 }
 
-void MyTimer::drawUI()
+void Timer::drawUI()
 {
 
 	gl::pushModelView();
@@ -20,7 +20,7 @@ void MyTimer::drawUI()
 	gl::popModelView();
 }
 
-void MyTimer::update()
+void Timer::update()
 {
 	if (is_countdown) {
 		timer--;
@@ -28,7 +28,7 @@ void MyTimer::update()
 	}
 }
 
-bool MyTimer::isCountEnd()
+bool Timer::isCountEnd()
 {
 	return timer == 0;
 }

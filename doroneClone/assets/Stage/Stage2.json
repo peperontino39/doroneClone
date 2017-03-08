@@ -5,7 +5,7 @@
    ],
    "StageInfo" : {
       "Center" : [ 0, 0, 0 ],
-      "StageSize" : [99, 99, 99]
+      "StageSize" : [ 100, 100, 100 ]
    },
    "obs_info" : [
       {
@@ -18,40 +18,31 @@
          "texture" : "default"
       },
       {
-         "isGround" : false,
+         "isGround" : true,
          "material" : "default",
-         "mesh" : "CasaSimples",
-         "position" : [ 0, 6.4000000953674316, -0.63999861478805542 ],
-         "rotate" : [ 0, 8.0299997329711914, 0 ],
-         "scale" : [ 5.119999885559082, 2.4800000190734863, 2.8499999046325684 ],
-         "texture" : "CasaSimples"
+         "mesh" : "default",
+         "position" : [ 0, 4.190000057220459, 29.14000129699707 ],
+         "rotate" : [ 26.770000457763672, 0, 0 ],
+         "scale" : [ 8.630000114440918, 1, 19.289999008178711 ],
+         "texture" : "default"
       },
       {
-         "isGround" : false,
+         "isGround" : true,
          "material" : "default",
-         "mesh" : "CasaSimples",
-         "position" : [ 23.910001754760742, 2.7200000286102295, -32.220001220703125 ],
+         "mesh" : "default",
+         "position" : [ 0, 8.4200000762939453, 1.8799999952316284 ],
          "rotate" : [ 0, 0, 0 ],
-         "scale" : [ 1, 1, 1 ],
-         "texture" : "CasaSimples"
+         "scale" : [ 9.7399997711181641, 1, 38.319999694824219 ],
+         "texture" : "default"
       },
       {
-         "isGround" : false,
+         "isGround" : true,
          "material" : "default",
-         "mesh" : "CasaSimples",
-         "position" : [ 36.590000152587891, 5.3499999046325684, 24.739999771118164 ],
-         "rotate" : [ 0, 23.740001678466797, 0 ],
-         "scale" : [ 1, 1, 1 ],
-         "texture" : "CasaSimples"
-      },
-      {
-         "isGround" : false,
-         "material" : "default",
-         "mesh" : "CasaSimples",
-         "position" : [ -23.860000610351563, 2.9000000953674316, 25.149999618530273 ],
-         "rotate" : [ 0, -25.149999618530273, 0 ],
-         "scale" : [ 1, 1, 1 ],
-         "texture" : "CasaSimples"
+         "mesh" : "default",
+         "position" : [ 0, 4.179999828338623, -29.369998931884766 ],
+         "rotate" : [ -19.100000381469727, 0, 0 ],
+         "scale" : [ 8.8199996948242188, 1, 26.089998245239258 ],
+         "texture" : "default"
       }
    ]
 }

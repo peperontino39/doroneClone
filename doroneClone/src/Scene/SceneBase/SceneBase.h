@@ -36,6 +36,7 @@ public:
 	virtual void keyUp();
 
 	virtual void resize();
+
 	std::function<SceneBase*()> nextScene = [&]() {return nullptr; };
 protected:
 

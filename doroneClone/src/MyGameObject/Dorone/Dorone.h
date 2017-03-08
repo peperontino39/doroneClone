@@ -27,7 +27,6 @@ public:
 	void setIsDraw(bool);
 	void setMemoryTransform(int);
 	void memoryClear();
-	void hitFn();
 
 	CameraWork *camera;
 	DoroneMemory * dorone_memory;

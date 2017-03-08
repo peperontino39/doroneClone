@@ -15,9 +15,6 @@ using namespace ci::app;
 
 void CheckPoint::setup()
 {
-	yajirusi = TriMeshs.get("yajirusi");
-	yajirusi_tex = Textures.get("yajirusi");
-	yaji_mate = Materials.get("default");
 	point_material = Materials.get("pointMat");
 	goal_mate = Materials.get("goal_mate");
 	clear_mate = Materials.get("clear_mate");
@@ -112,22 +109,6 @@ void CheckPoint::draw()
 		if (i == goal_index)goal_mate->apply();
 
 		gl::drawSphere(points[i], 2);
-
-	}
-	if (!is_all_clear) {
-		gl::pushMatrices();
-		gl::translate(dorone->transform.position);
-		gl::multModelView(ci::Matrix44f::createRotation(Vec3f::zAxis(),
-			-points[goal_index] + dorone->transform.position,
-			Vec3f::yAxis()));
-		gl::translate(Vec3f::zAxis() * -8);
-
-		yaji_mate->apply();
-		yajirusi_tex->enableAndBind();
-		gl::draw(*yajirusi);
-		yajirusi_tex->disable();
-		
-		gl::popMatrices();
 
 	}
 }

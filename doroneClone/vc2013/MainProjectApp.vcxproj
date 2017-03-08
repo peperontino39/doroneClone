@@ -130,6 +130,7 @@
     <ClInclude Include="..\src\MyGameObject\Skydome\Skydome.h" />
     <ClInclude Include="..\src\MyGameObject\StageEdit\StageEdit.h" />
     <ClInclude Include="..\src\MyGameObject\Timer\Timer.h" />
+    <ClInclude Include="..\src\SceneManager\SceneManager.h" />
     <ClInclude Include="..\src\Scene\GameMain\GameMain.h" />
     <ClInclude Include="..\src\Scene\MaterialCreate\MaterialCreate.h" />
     <ClInclude Include="..\src\Scene\SceneBase\SceneBase.h" />
@@ -138,6 +139,8 @@
     <ClInclude Include="..\src\System\CinderFwd.h" />
     <ClInclude Include="..\src\System\Coroutine\Coroutine.h" />
     <ClInclude Include="..\src\System\Easing\Easing.h" />
+    <ClInclude Include="..\src\System\Easing\EasingInfos\EasingInfos.h" />
+    <ClInclude Include="..\src\System\Easing\EasingInfo\EasingInfo.h" />
     <ClInclude Include="..\src\System\Input\Input.h" />
     <ClInclude Include="..\src\System\Input\Key\Key.h" />
     <ClInclude Include="..\src\System\Input\Mouse\Mouse.h" />
@@ -169,6 +172,7 @@
     <ClCompile Include="..\src\MyGameObject\Skydome\Skydome.cpp" />
     <ClCompile Include="..\src\MyGameObject\StageEdit\StageEdit.cpp" />
     <ClCompile Include="..\src\MyGameObject\Timer\Timer.cpp" />
+    <ClCompile Include="..\src\SceneManager\SceneManager.cpp" />
     <ClCompile Include="..\src\Scene\GameMain\GameMain.cpp" />
     <ClCompile Include="..\src\Scene\MaterialCreate\MaterialCreate.cpp" />
     <ClCompile Include="..\src\Scene\SceneBase\SceneBase.cpp" />

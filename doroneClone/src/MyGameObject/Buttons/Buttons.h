@@ -20,7 +20,6 @@ private:
 	std::vector<ci::Vec2f> poss;
 	ci::Vec2i size;
 	ci::Font font;
-	ci::gl::TextureRef bg;
 
 	int stage_num;
 	bool is_ok;

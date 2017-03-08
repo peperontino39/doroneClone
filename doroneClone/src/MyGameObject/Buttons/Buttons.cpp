@@ -5,7 +5,6 @@
 #include "cinder/app/App.h"
 #include "cinder/gl/gl.h"
 #include "cinder/Rect.h"
-#include "../../AssetManager/TextureManager/TextureManager.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -25,16 +24,10 @@ Buttons::Buttons()
 
 	stage_num = -1;
 	is_ok = false;
-	bg = Textures.get("ground");
 }
 
 void Buttons::drawUI()
 {
-	gl::color(Color::white());
-	bg->enableAndBind();
-	gl::drawSolidRect(Rectf(getWindowSize()/-2, getWindowSize() / 2));
-	bg->disable();
-
 	gl::pushModelView();
 
 	gl::scale(3, 3);

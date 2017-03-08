@@ -21,7 +21,7 @@ class CheckPoint;
 class Map;
 class DoroneMemory;
 class ClearUi;
-class MyTimer;
+class Timer;
 
 class GameMainTask : public GameObject
 {
@@ -43,7 +43,7 @@ public:
 	Map* map;
 	DoroneMemory* dorone_memory;
 	ClearUi* clearui;
-	MyTimer* timer;
+	Timer* timer;
 
 
 	bool is_end;

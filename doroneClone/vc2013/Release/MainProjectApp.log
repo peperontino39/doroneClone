@@ -1,10 +1,93 @@
-﻿  Map.cpp
+﻿  MainProjectApp.cpp
+  CameraWork.cpp
+  ClearUi.cpp
+  Easing.cpp
   NOTE: Use of this header (bool_trait_def.hpp) is deprecated
   NOTE: Use of this header (template_arity_spec.hpp) is deprecated
   NOTE: Use of this header (template_arity_spec.hpp) is deprecated
+  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
+  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
+  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
+  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
+  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
+  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
+  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
+  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
+  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
+c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\system\easing\EasingInfos/EasingInfos.h(15): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\src\MainProjectApp.cpp)
+  c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\system\easing\EasingInfos/EasingInfos.h(11): note: クラス テンプレート のメンバー関数 'bool EasingInfos<T>::update(void)' のコンパイル中
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MainProjectApp.cpp)
+  c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\System/Easing/Easing.h(18): note: コンパイル対象の関数 テンプレート インスタンス化 'bool EasingInfos<T>::update(void)' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MainProjectApp.cpp)
+  c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\System/Easing/Easing.h(15): note: コンパイル対象のクラス テンプレート インスタンス化 'EasingInfos<T>' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MainProjectApp.cpp)
+  c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\System/Easing/Easing.h(12): note: クラス テンプレート のメンバー関数 'void Easing<float>::update(void)' のコンパイル中 (ソース ファイルをコンパイルしています ..\src\MainProjectApp.cpp)
+  ..\src\MainProjectApp.cpp(83): note: コンパイル対象の関数 テンプレート インスタンス化 'void Easing<float>::update(void)' のリファレンスを確認してください (ソース ファイルをコンパイルしています ..\src\MainProjectApp.cpp)
+  ..\src\MainProjectApp.cpp(83): note: コンパイル対象のクラス テンプレート インスタンス化 'Easing<float>' のリファレンスを確認してください (ソース ファイルをコンパイルしています ..\src\MainProjectApp.cpp)
+c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\system\easing\EasingInfos/EasingInfos.h(31): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\src\MyGameObject\CameraWork\CameraWork.cpp)
+  c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\system\easing\EasingInfos/EasingInfos.h(28): note: クラス テンプレート のメンバー関数 'void EasingInfos<T>::apply(T &,T,std::function<float (float)>,float)' のコンパイル中
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MyGameObject\CameraWork\CameraWork.cpp)
+  c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\mygameobject\camerawork\../../System/Easing/Easing.h(34): note: コンパイル対象の関数 テンプレート インスタンス化 'void EasingInfos<T>::apply(T &,T,std::function<float (float)>,float)' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MyGameObject\CameraWork\CameraWork.cpp)
+  c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\mygameobject\camerawork\../../System/Easing/Easing.h(41): note: コンパイル対象のクラス テンプレート インスタンス化 'EasingInfos<T>' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MyGameObject\CameraWork\CameraWork.cpp)
+  ..\src\MyGameObject\CameraWork\CameraWork.cpp(142): note: コンパイル対象の関数 テンプレート インスタンス化 'void Easing<float>::clear<float>(T &)' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MyGameObject\CameraWork\CameraWork.cpp)
+  ..\src\MyGameObject\CameraWork\CameraWork.cpp(142): note: コンパイル対象の関数 テンプレート インスタンス化 'void Easing<float>::clear<float>(T &)' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MyGameObject\CameraWork\CameraWork.cpp)
+c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\system\easing\EasingInfos/EasingInfos.h(31): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\src\MyGameObject\ClearUi\ClearUi.cpp)
+  c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\system\easing\EasingInfos/EasingInfos.h(28): note: クラス テンプレート のメンバー関数 'void EasingInfos<T>::apply(T &,T,std::function<float (float)>,float)' のコンパイル中
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MyGameObject\ClearUi\ClearUi.cpp)
+  c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\mygameobject\clearui\../../System/Easing/Easing.h(34): note: コンパイル対象の関数 テンプレート インスタンス化 'void EasingInfos<T>::apply(T &,T,std::function<float (float)>,float)' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MyGameObject\ClearUi\ClearUi.cpp)
+  c:\users\bantan\desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\src\mygameobject\clearui\../../System/Easing/Easing.h(34): note: コンパイル対象のクラス テンプレート インスタンス化 'EasingInfos<T>' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MyGameObject\ClearUi\ClearUi.cpp)
+  ..\src\MyGameObject\ClearUi\ClearUi.cpp(32): note: コンパイル対象の関数 テンプレート インスタンス化 'void Easing<float>::apply<float>(T &,T,std::function<float (float)>,float)' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MyGameObject\ClearUi\ClearUi.cpp)
+  ..\src\MyGameObject\ClearUi\ClearUi.cpp(32): note: コンパイル対象の関数 テンプレート インスタンス化 'void Easing<float>::apply<float>(T &,T,std::function<float (float)>,float)' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ] (ソース ファイルをコンパイルしています ..\src\MyGameObject\ClearUi\ClearUi.cpp)
   コード生成しています。
-  1 of 8429 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  0 of 8073 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   コード生成が終了しました。
-  MainProjectApp.vcxproj -> C:\Users\bantan\Desktop\cinderまとめ\cinder3\就活作品2\vc2013\Release\MainProjectApp.exe
+  MainProjectApp.vcxproj -> C:\Users\bantan\Desktop\cinderまとめ\cinder3\就活作品2 var0.0.2\vc2013\Release\MainProjectApp.exe

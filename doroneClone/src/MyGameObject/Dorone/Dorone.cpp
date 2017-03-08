@@ -17,7 +17,7 @@ using namespace ci::app;
 Dorone::Dorone()
 {
 	transform.position += Vec3f::yAxis() * 5;
-	radius = 3;
+	radius = 2;
 	body = TriMeshs.get("drone");
 	wing = TriMeshs.get("droneWing");
 	vec = Vec3f::zero();
@@ -62,11 +62,9 @@ void Dorone::draw()
 	matelial->apply();
 	//gl::drawSphere(transform.position, radius);
 	gl::pushMatrices();
-	gl::translate(Vec3f::yAxis() * -3);
+	gl::translate(Vec3f::yAxis() * -4);
+
 	gl::multModelView(transform.getMultiMatrix());
-	
-	float size = 0.5f;
-	gl::scale(size, size, size);
 
 	gl::draw(*body);
 
@@ -156,12 +154,6 @@ void Dorone::setMemoryTransform(int _index)
 void Dorone::memoryClear()
 {
 	memory.clear();
-}
-
-void Dorone::hitFn()
-{
-	tergetVec = Vec3f::zero();
-	vec = Vec3f::zero();
 }
 
 void Dorone::moveFn()
