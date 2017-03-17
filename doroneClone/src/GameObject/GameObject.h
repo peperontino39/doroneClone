@@ -1,5 +1,5 @@
 #pragma once
-#include "../Transform/Transform.h"
+#include "../Utility/Transform/Transform.h"
 
 class SceneBase;
 
@@ -7,34 +7,35 @@ class GameObject
 {
 public:
 
-	GameObject();
-	virtual ~GameObject();
+	GameObject() {};
+	virtual ~GameObject() {};
 
-	virtual void setup();
+	virtual void setup() {};
 
-	virtual void update();
+	virtual void update() {};
 
-	virtual void cameraDrawBegin();
-	virtual void lightDrawBegin();
-	virtual void draw();
-	virtual void cameraDrawEnd();
-	virtual void lightDrawEnd();
-	virtual void drawUI();
-	virtual void sceneCange(SceneBase& _scene);
+	virtual void cameraDrawBegin() {};
+	virtual void lightDrawBegin() {};
+	virtual void draw() {};
+	virtual void lightDrawEnd() {};
+	virtual void nonLightDraw() {};
+	virtual void cameraDrawEnd() {};
+	virtual void drawUI() {};
+	virtual void sceneCange(SceneBase& _scene) {};
 
 
-	virtual void shutdown();
+	virtual void shutdown() {};
 
-	virtual void mouseDown();
-	virtual void mouseUp();
-	virtual void mouseWheel();
-	virtual void mouseMove();
-	virtual void mouseDrag();
+	virtual void mouseDown() {};
+	virtual void mouseUp() {};
+	virtual void mouseWheel() {};
+	virtual void mouseMove() {};
+	virtual void mouseDrag() {};
 
-	virtual void keyDown();
-	virtual void keyUp();
+	virtual void keyDown() {};
+	virtual void keyUp() {};
 
-	virtual void resize();
+	virtual void resize() {};
 	Transform transform;
 protected:
 

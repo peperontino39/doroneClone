@@ -1,17 +1,18 @@
 #include "cinder/app/AppNative.h"  
 
 
-#include "AssetManager/TriMeshManager/TriMeshManager.h"
-#include "AssetManager/TextureManager/TextureManager.h"
-#include "AssetManager/MaterialManager/MaterialManager.h"
+#include "Utility/AssetManager/TriMeshManager/TriMeshManager.h"
+#include "Utility/AssetManager/TextureManager/TextureManager.h"
+#include "Utility/AssetManager/MaterialManager/MaterialManager.h"
 
-#include "System/Input/Mouse/Mouse.h"
-#include "System/Input/Key/Key.h"
-#include "System/Easing/Easing.h"
-#include "System/Coroutine/Coroutine.h"
-#include "System/Interface/Interface.h"
+#include "Utility/Input/Mouse/Mouse.h"
+#include "Utility/Input/Key/Key.h"
 
-#include "SceneManager/SceneManager.h"
+#include "Utility/Easing/Easing.h"
+#include "Utility/Coroutine/Coroutine.h"
+#include "Utility/Interface/Interface.h"
+
+#include "Scene/SceneManager/SceneManager.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -55,9 +56,10 @@ void MainProjectApp::prepareSettings(Settings * settings)
 
 void MainProjectApp::setup()
 {
+
 	Materials;
 	TriMeshs;
-	Textures;
+	TextureM;
 
 	scene_manager.setup();
 
@@ -75,6 +77,7 @@ void MainProjectApp::shutdown()
 void MainProjectApp::update()
 {
 
+	//console() << getAverageFps() << std::endl;
 	scene_manager.update();
 
 	c_Coroutine.registerUpdate();
@@ -118,7 +121,7 @@ void MainProjectApp::mouseMove(MouseEvent event)
 {
 	c_Mouse.registerMove(event);
 
-	scene_manager.mouseWheel();
+	scene_manager.mouseMove();
 }
 
 void MainProjectApp::mouseDrag(MouseEvent event)
